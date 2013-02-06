@@ -1,0 +1,36 @@
+<fieldset>
+  <legend>menu</legend>
+  <div>
+    <p><input type="text" data-bind="value: newRssUrl" placeholder="input rss url here"/>
+      <button data-bind="click: addRss"> add</button></p>
+    <p>
+      <button data-bind="click: showLatest"> latest 10 blogs </button>
+      <button data-bind="click: checkAll"> check rss update </button>
+      <button data-bind="click: dummy"></button>
+    </p>
+  </div>
+</fieldset>
+
+<ul data-bind="foreach : rsses">
+  <li data-bind="click: $root.showChapters">
+    <a data-bind="attr:{href: url}">=></a>
+    <div>
+      <h3 data-bind="text: title"></h3>
+      <i data-bind="text: updated"></i>
+    </div>
+  </li>
+</ul>
+
+<div data-bind="foreach: chapters">
+  <div>
+    <a data-bind="attr:{href: parentlink">
+      home
+    </a><span>
+      <a data-bind="attr:{href: link},
+                    text:title,
+                    click:readChapter"
+      ></a>
+    </span><span data-bind="text: description">
+    </span>
+  </div>
+</div>
