@@ -1,0 +1,306 @@
+{ 'http://manhua.178.com/g/godeath/rss.xml': 
+   { rss: 
+      { name: 'rss',
+        attrs: { version: '2.0' },
+        channel: 
+         { name: 'channel',
+           attrs: {},
+           title: { name: 'title', attrs: {}, text: 'GODEATH 女神的血脈~~178在线漫画站' },
+           description: 
+            { name: 'description',
+              attrs: {},
+              text: 'GODEATH 女神的血脈 最新更新~~178在线漫画站' },
+           link: 
+            { name: 'link',
+              attrs: {},
+              text: 'http://manhua.178.com/index.shtml?from=rssReader' },
+           language: { name: 'language', attrs: {} },
+           generator: 
+            { name: 'generator',
+              attrs: {},
+              text: 'GODEATH 女神的血脈 最新更新~~178在线漫画站' },
+           ttl: { name: 'ttl', attrs: {} },
+           item: 
+            [ { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: 'GODEATH 女神的血脈~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/godeath/20418.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Wed, 23 Jan 2013 17:14:30 +0800' },
+                author: { name: 'author', attrs: {}, text: '盐崎雄二' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/godeath/20418.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/13/godeath20130123.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/godeath/20418.shtml?from=rssReader\' title=\'第02卷\' target=\'_blank\'>第02卷</a>' } },
+              { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: 'GODEATH 女神的血脈~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/godeath/20417.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Wed, 23 Jan 2013 17:14:22 +0800' },
+                author: { name: 'author', attrs: {}, text: '盐崎雄二' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/godeath/20417.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/13/godeath20130123.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/godeath/20417.shtml?from=rssReader\' title=\'第01卷\' target=\'_blank\'>第01卷</a>' } } ] } } },
+  'http://manhua.178.com/b/blood/rss.xml': 
+   { rss: 
+      { name: 'rss',
+        attrs: { version: '2.0' },
+        channel: 
+         { name: 'channel',
+           attrs: {},
+           title: { name: 'title', attrs: {}, text: 'blood+~~178在线漫画站' },
+           description: { name: 'description', attrs: {}, text: 'blood+ 最新更新~~178在线漫画站' },
+           link: 
+            { name: 'link',
+              attrs: {},
+              text: 'http://manhua.178.com/index.shtml?from=rssReader' },
+           language: { name: 'language', attrs: {} },
+           generator: { name: 'generator', attrs: {}, text: 'blood+ 最新更新~~178在线漫画站' },
+           ttl: { name: 'ttl', attrs: {} },
+           item: 
+            [ { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: 'blood+~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/blood/17617.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Thu, 19 Apr 2012 12:59:02 +0800' },
+                author: { name: 'author', attrs: {}, text: '桂明日香' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/blood/17617.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/8/blood+.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/blood/17617.shtml?from=rssReader\' title=\'第05卷完\' target=\'_blank\'>第05卷完</a>' } },
+              { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: 'blood+~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/blood/17616.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Thu, 19 Apr 2012 12:58:52 +0800' },
+                author: { name: 'author', attrs: {}, text: '桂明日香' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/blood/17616.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/8/blood+.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/blood/17616.shtml?from=rssReader\' title=\'第04卷\' target=\'_blank\'>第04卷</a>' } } ] } } },
+  'http://manhua.178.com/m/mixim12/rss.xml': 
+   { rss: 
+      { name: 'rss',
+        attrs: { version: '2.0' },
+        channel: 
+         { name: 'channel',
+           attrs: {},
+           title: { name: 'title', attrs: {}, text: 'MiXiM♀12~~178在线漫画站' },
+           description: 
+            { name: 'description',
+              attrs: {},
+              text: 'MiXiM♀12 最新更新~~178在线漫画站' },
+           link: 
+            { name: 'link',
+              attrs: {},
+              text: 'http://manhua.178.com/index.shtml?from=rssReader' },
+           language: { name: 'language', attrs: {} },
+           generator: { name: 'generator', attrs: {}, text: 'MiXiM♀12 最新更新~~178在线漫画站' },
+           ttl: { name: 'ttl', attrs: {} },
+           item: 
+            [ { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: 'MiXiM♀12~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/mixim12/9540.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Fri, 04 Jun 2010 12:33:03 +0800' },
+                author: { name: 'author', attrs: {}, text: '安西信行/野坂尚史' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/mixim12/9540.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/17/0_6fdd9a188cab8b99182d9dbb46826f02.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/mixim12/9540.shtml?from=rssReader\' title=\'CH01\' target=\'_blank\'>CH01</a>' } },
+              { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: 'MiXiM♀12~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/mixim12/9541.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Fri, 04 Jun 2010 12:33:03 +0800' },
+                author: { name: 'author', attrs: {}, text: '安西信行/野坂尚史' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/mixim12/9541.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/17/0_6fdd9a188cab8b99182d9dbb46826f02.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/mixim12/9541.shtml?from=rssReader\' title=\'CH02\' target=\'_blank\'>CH02</a>' } } ] } } },
+  'http://manhua.178.com/b/bigorder/rss.xml': 
+   { rss: 
+      { name: 'rss',
+        attrs: { version: '2.0' },
+        channel: 
+         { name: 'channel',
+           attrs: {},
+           title: { name: 'title', attrs: {}, text: 'Big Order~~178在线漫画站' },
+           description: 
+            { name: 'description',
+              attrs: {},
+              text: 'Big Order 最新更新~~178在线漫画站' },
+           link: 
+            { name: 'link',
+              attrs: {},
+              text: 'http://manhua.178.com/index.shtml?from=rssReader' },
+           language: { name: 'language', attrs: {} },
+           generator: 
+            { name: 'generator',
+              attrs: {},
+              text: 'Big Order 最新更新~~178在线漫画站' },
+           ttl: { name: 'ttl', attrs: {} },
+           item: 
+            [ { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: 'Big Order~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/bigorder/19995.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Sun, 03 Feb 2013 11:40:18 +0800' },
+                author: { name: 'author', attrs: {}, text: 'エスのサカエ' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/bigorder/19995.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/0/bigorder20111226.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/bigorder/19995.shtml?from=rssReader\' title=\'第17话\' target=\'_blank\'>第17话</a>' } },
+              { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: 'Big Order~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/bigorder/19610.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Mon, 07 Jan 2013 00:25:36 +0800' },
+                author: { name: 'author', attrs: {}, text: 'エスのサカエ' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/bigorder/19610.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/0/bigorder20111226.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/bigorder/19610.shtml?from=rssReader\' title=\'第16话\' target=\'_blank\'>第16话</a>' } } ] } } },
+  'http://manhua.178.com/w/wentiertongdoulaiziyishijie/rss.xml': 
+   { rss: 
+      { name: 'rss',
+        attrs: { version: '2.0' },
+        channel: 
+         { name: 'channel',
+           attrs: {},
+           title: { name: 'title', attrs: {}, text: '问题儿童都来自异世界？乙~~178在线漫画站' },
+           description: 
+            { name: 'description',
+              attrs: {},
+              text: '问题儿童都来自异世界？乙 最新更新~~178在线漫画站' },
+           link: 
+            { name: 'link',
+              attrs: {},
+              text: 'http://manhua.178.com/index.shtml?from=rssReader' },
+           language: { name: 'language', attrs: {} },
+           generator: 
+            { name: 'generator',
+              attrs: {},
+              text: '问题儿童都来自异世界？乙 最新更新~~178在线漫画站' },
+           ttl: { name: 'ttl', attrs: {} },
+           item: 
+            [ { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: '问题儿童都来自异世界？乙~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/wentiertongdoulaiziyishijie/20001.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Sun, 03 Feb 2013 20:21:40 +0800' },
+                author: { name: 'author', attrs: {}, text: '坂野杏梨/龙之湖太郎' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/wentiertongdoulaiziyishijie/20001.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/1/wentishaonian.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/wentiertongdoulaiziyishijie/20001.shtml?from=rssReader\' title=\'第06话\' target=\'_blank\'>第06话</a>' } },
+              { name: 'item',
+                attrs: {},
+                title: { name: 'title', attrs: {}, text: '问题儿童都来自异世界？乙~~178在线漫画站' },
+                link: 
+                 { name: 'link',
+                   attrs: {},
+                   text: 'http://manhua.178.com/wentiertongdoulaiziyishijie/19926.shtml?from=rssReader' },
+                pubDate: 
+                 { name: 'pubDate',
+                   attrs: {},
+                   text: 'Tue, 29 Jan 2013 13:49:42 +0800' },
+                author: { name: 'author', attrs: {}, text: '坂野杏梨/龙之湖太郎' },
+                source: 
+                 { name: 'source',
+                   attrs: { url: 'http://manhua.178.com' },
+                   text: '178在线漫画站' },
+                description: 
+                 { name: 'description',
+                   attrs: {},
+                   text: '<a href=\'http://manhua.178.com/wentiertongdoulaiziyishijie/19926.shtml?from=rssReader\' target=\'_blank\'><img src=\'http://imgfast.manhua.178.com/webpic/1/wentishaonian.jpg\' width=\'150\' height=\'200\'/></a></br><a href=\'http://manhua.178.com/wentiertongdoulaiziyishijie/19926.shtml?from=rssReader\' title=\'第05话\' target=\'_blank\'>第05话</a>' } } ] } } } }
