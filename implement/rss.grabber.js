@@ -41,31 +41,34 @@ var $rss = (function(){
       onEndDocument : function() {
         // console.log('finish parsing');
       },
-      onStartElementNS : function (elem, attrs, prefix, uri, namespaces) {
+      onStartElementNS : function (elemName , attrs, prefix, uri, namespaces) {
         var _attr = {};
         attrs.forEach(function( val ){
           _attr [ val[0] ] = val[1];
         });
-        ne  = new rssNode({ name : elem, attrs:_attr, parent : cur });
-        console.log("=> Started: " + cur.name );
-        if( cur[elem] ){
-          if( !Array.isArray(cur[elem]) ){
-            temp = cur[elem];
-            cur[elem] = [temp];
+        if( elemName == 'entry' && cur.elemName =='entry' ){
+          parsingListener.onEndElementNS('entry');
+        }
+        ne  = new rssNode({ elemName : elemName, attrs:_attr, parent : cur });
+        console.log("=> Started: " , cur.elemName );
+        if( cur[elemName] ){
+          if( !Array.isArray(cur[elemName]) ){
+            temp = cur[elemName];
+            cur[elemName] = [temp];
             temp.parent = cur;
           }
-          cur[elem].push(ne);
+          cur[elemName].push(ne);
         } else {
-          cur[elem] = ne;
+          cur[elemName] = ne;
         }
         cur = ne;
-        console.log("            " + elem + " uri="+uri +" (Attributes: " + JSON.stringify(attrs) + " )" );
+        console.log("    switch: " , elemName , " uri=",uri ," (Attributes: " , JSON.stringify(attrs) + " )" );
       },
-      onEndElementNS : function(elem, prefix, uri) {
-        if ( elem == cur.name ){
-          console.log("<= Ended: ", cur.name );
+      onEndElementNS : function(elemName, prefix, uri) {
+        if ( elemName == cur.elemName ){
+          console.log("<= Ended: ", cur.elemName );
           cur = cur.parent;
-          console.log("          " + elem + " uri="+uri, cur.name, typeof cur[elem] );
+          console.log("   Reset: ", cur.elemName, " uri=", uri,  typeof cur[elemName] );
         }
       },
       onCharacters : function(chars) {
