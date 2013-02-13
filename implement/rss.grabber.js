@@ -50,7 +50,7 @@ var $rss = (function(){
           parsingListener.onEndElementNS('entry');
         }
         ne  = new rssNode({ elemName : elemName, attrs:_attr, parent : cur });
-        console.log("=> Started: " , cur.elemName );
+        // console.log("=> Started: " , cur.elemName );
         if( cur[elemName] ){
           if( !Array.isArray(cur[elemName]) ){
             temp = cur[elemName];
@@ -62,18 +62,22 @@ var $rss = (function(){
           cur[elemName] = ne;
         }
         cur = ne;
-        console.log("    switch: " , elemName , " uri=",uri ," (Attributes: " , JSON.stringify(attrs) + " )" );
+        // console.log("    switch: " , elemName , " uri=",uri ," (Attributes: " , JSON.stringify(attrs) + " )" );
       },
       onEndElementNS : function(elemName, prefix, uri) {
         if ( elemName == cur.elemName ){
-          console.log("<= Ended: ", cur.elemName );
+          // console.log("<= Ended: ", cur.elemName );
           cur = cur.parent;
-          console.log("   Reset: ", cur.elemName, " uri=", uri,  typeof cur[elemName] );
+          // console.log("   Reset: ", cur.elemName, " uri=", uri,  typeof cur[elemName] );
         }
       },
       onCharacters : function(chars) {
         if( chars != '' && chars.match(/[^\s]/) ){
-          cur.val = chars;
+          if(cur.val){
+            cur.val +=chars;
+          } else{
+            cur.val = chars;
+          }
           // console.log('chars :', chars );
         }
       },

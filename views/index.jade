@@ -1,8 +1,46 @@
-extend ../../layout-nav 
+extend ../../views/layout-nav 
+
+
 append content-nav 
   .container 
-    .brand test 
-extend ../../layout-nav 
-append content-nav 
-  .container 
-    .brand test 
+    .brand rss 
+append content-body
+  .container
+    .form-horizontal
+      .input-append
+        input.span(type="text",data-bind="value:newSource")
+        button.btn(data-bind="click:addChannel") add
+    .btn-group
+      +ko("if : viewType(\u0029 != 'channel'")
+        .btn(data-bind="click:viewType.bind($root,'channel')") all channels
+      +ko("if : viewType(\u0029 == 'detail'")
+        .btn(data-bind="click:viewType.bind($root,'items')") back to channel
+    +ko("if:viewType(\u0029 == 'channel' ")
+      +ko("foreach:channels")
+        .row
+          .span(data-bind="text:title")
+          .span(data-bind="text:lastBuildDate")
+          .span.icon-download(data-bind="click:$root.showItemByChannel")
+    +ko("if:viewType(\u0029 == 'items'")
+      h3(data-bind="text:curChannel().title")
+      +ko("foreach:items")
+        .row
+          .span(data-bind="text:title")
+          .span.icon-download(data-bind="click:$root.showItemDetail")
+    +ko("if:viewType(\u0029 == 'detail'")
+      h5(data-bind="text:curChannel().title")
+      h3(data-bind="text:curItem().title")
+      +ko("with:curItem")
+        +ko("if:content")
+          div(data-bind="html:content")
+        +ko("ifnot:content")
+          a(target="_blank",data-bind="attr:{href:link}") link
+          div(data-bind="html:description")
+
+
+append js
+  +appmain('rss')
+  
+append css
+  +appcss('rss')
+

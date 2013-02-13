@@ -1,6 +1,9 @@
 module.exports = function Channel (source) {
   source = source || {};
-  
+  if(!source.source){
+    throw new Error('rss source havnt given');
+  }
+  this.source         = source.source || '';
   this.author         = source.author || '';
   this.category       = source.category || '';
   this.copyright      = source.copyright || source.rights || '';
@@ -13,7 +16,6 @@ module.exports = function Channel (source) {
   this.generator      = source.generator || '';
   this.guid           = source.guid || '';
   this.image          = source.image || '';
-  this.item           = source.item || this.entry || '';
   this.lastBuildDate  = source.lastBuildDate || source.updated || '';
   this.link           = source.link || '';
   this.managingEditor = source.managingEditor || source.author || source.contributor || '';
